@@ -4,21 +4,21 @@ Jumat 15 Agustus 2025
 # Default Routing  
 
 # Router 1
-1. colokkan R1 ke laptop buka winbox     
-   pilih menu terminal buatkan password dan user lalu identity    
+1. Sambungkan R1 ke laptop dan buka winbox  
+   Pilih menu terminal, buatkan password dan user lalu identity    
 
 ![M](lab22pw.PNG)
 
 ![T](LAB22IDN.PNG)
 
-2. masukan ip address untuk eth1 dan eth2    
-   pilih Menu IP > Address  
-   klik +  
+2. Masukan ip address untuk eth1 dan eth2    
+   Pilih Menu IP > Address  
+   Klik +  
 
 ![M](ADRESLAB23.PNG) 
 
-3. konfigurasi static routing 
-   pilih menu IP > routes    
+3. Konfigurasi static routing 
+   Pilih menu IP > routes    
    dst-addres= ip default (0.0.0.0/0)   
    gateway= ip yang akan di pasang di router2  
 
