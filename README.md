@@ -1,31 +1,35 @@
-# LAB-21-Default-Routing
-Jumat 15 Agustus 2025  
+# LAB-21-Default-Routing-
+Jum'at 15 Agustus 2025  
   
 # Default Routing  
+  ![topo](def.png)  
+# Router 1  
+1. Buat username dan password sesuai perintah di Topologi.  
+     USN : ahnaf  
+     PASS: Jaringan  
+![a](usradd.PNG)  
+2. Login mengunakan user yang telah dibuat.  
+![b](logon.PNG)  
+  3. Ganti Identitas RB menjadi **R1**.  
 
-# Router 1
-1. Sambungkan R1 ke laptop dan buka winbox  
-   Pilih menu terminal, buatkan password dan user lalu identity    
-
-![M](lab22pw.PNG)
-
-![T](LAB22IDN.PNG)
+         system identity set name=R1
 
 2. Masukan ip address untuk eth1 dan eth2    
    Pilih Menu IP > Address  
    Klik +  
 
-![M](ADRESLAB23.PNG) 
+![M](sdad.png)  
+![M](sda.png)  
+![M](trw.png)  
 
-3. Konfigurasi static routing 
+3. Konfigurasi default routing 
    Pilih menu IP > routes    
    dst-addres= ip default (0.0.0.0/0)   
-   gateway= ip yang akan di pasang di router2  
+   gateway= ip tujuan
+![m](yy.png) 
+![M](yyy.png)  
 
-![M](DPLAB23.PNG)
-
-
-# Router 2  
+# Router 2
   1. Buat username dan password sesuai perintah di Topologi.  
      USN : ahnaf  
      PASS: Jaringan  
@@ -34,46 +38,49 @@ Jumat 15 Agustus 2025
 ![b](logon.PNG)  
   3. Ganti Identitas RB menjadi **R2**.  
 
-         system identity set name=R2
+         system identity set name=R2  
   4. Tambahkan IP Address untuk ether1 dan ether2.  
      ether1 = 12.12.12.2/30 (untuk koneksi R2 ke R1)  
-     ether2 = 12.12.12.5/30 (untuk koneksi R2 ke R3)  
-![c](jkvshfuisdhfui.PNG)  
-  5. Sekarang konfigurasi static routing  
-     dst addrs=11.11.11.0/27 gateway=12.12.12.1  
-     dst addrs=22.22.22.0/29 gateway=12.12.12.6  
-![e](y8asdvyuasdtvauy.PNG)  
+     ether2 = 23.23.23.1/30 (untuk koneksi R2 ke R3)  
+![c](sdadsada.PNG)  
+![c](dasdddasdwa.PNG)  
+![c](dadas.PNG)  
+  5. Sekarang konfigurasi static routing, **IP > route > routes**  
+![e](dasdadawdsd.PNG)  
+![e](fgrssdfsdfs.PNG)  
+![e](gdfghdfsdf.PNG)  
+![c](disjndioasjd.PNG)  
 
 # Router 3
-  1. Buat username dan password sesuai perintah di Topologi.  
-
-         user add name=ahnaf password=jaringan group=full  
+  1.   1. Buat username dan password sesuai perintah di Topologi.  
+     USN : ahnaf  
+     PASS: Jaringan  
+![a](usradd.PNG)  
   2. Login mengunakan user yang telah dibuat.  
-![g](logon.PNG)  
-  3. Ganti Identitas RB menjadi **R4**.  
+![b](logon.PNG)  
+  3. Ganti Identitas RB menjadi **R2**  .  
 
-          system identity set name=R3  
+         system identity set name=R2  
   4. Tambahkan IP Address untuk ether1 dan ether2.  
-     ether1 = 12.12.12.6/30 (untuk koneksi R3 ke R2)  
-     ether2 = 22.22.22.1/29 (untuk koneksi R3 ke Laptop B)
-
-          
-          ip address add interface=ether1 address=12.12.12.6/30  
-          ip address add interface=ether2 address=22.22.22.1/29
-  5. Sekarang konfigurasi static routing  
-     dst addrs=11.11.11.0/27 gateway=12.12.12.5
-
-          ip route add dst-address=11.11.11.0/27 gateway=12.12.12.5
+ether1 = 23.23.23.2/30 (untuk koneksi R3 ke R2)  
+ether2 = 33.33.33.1/29 (untuk koneksi R3 ke Laptop B)  
+![g](asdasdad.PNG)  
+![g](dsadad.PNG)  
+!g[](asfasdsda.PNG)
+  5. Sekarang konfigurasi static routing, **IP > route > routes**
+![y](asda.PNG)  
+![y](tgfgdr.PNG)  
+![y](hfg.PNG)
 
 # Laptop  
   Jika semua router sudah di konfigurasi, selanjutnya kita setting IP untuk setiap laptop.  
   Laptop A = 11.11.11.2  
   ![h](pc2.PNG)  
-  Laptop B = 22.22.22.2  
-  ![i](win.PNG)  
+  Laptop B = 33.33.33.3
+  ![i](asdfg.PNG)  
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
   Laptop A:  
-  ![j]()  
+  ![j](kihjy.png)  
   Laptop B:  
   ![k](jcdasfyhuiasdhasuidha.PNG)  
 
