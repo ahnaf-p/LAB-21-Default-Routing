@@ -48,7 +48,7 @@ Jum'at 15 Agustus 2025
   5. Sekarang konfigurasi static routing, **IP > route > routes**  
 ![e](dasdadawdsd.PNG)   
 ![e](gdfghdfsdf.PNG)  
-![c](disjndioasjd.PNG)  
+![c](soda.png)  
 
 # Router 3
   1.   1. Buat username dan password sesuai perintah di Topologi.  
