@@ -46,8 +46,7 @@ Jum'at 15 Agustus 2025
 ![c](dasdddasdwa.PNG)  
 ![c](dadas.PNG)  
   5. Sekarang konfigurasi static routing, **IP > route > routes**  
-![e](dasdadawdsd.PNG)  
-![e](fgrssdfsdfs.PNG)  
+![e](dasdadawdsd.PNG)   
 ![e](gdfghdfsdf.PNG)  
 ![c](disjndioasjd.PNG)  
 
