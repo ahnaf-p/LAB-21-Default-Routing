@@ -67,10 +67,9 @@ ether2 = 33.33.33.1/29 (untuk koneksi R3 ke Laptop B)
 ![g](dsadad.PNG)  
 !g[](asfasdsda.PNG)  
   5. Sekarang konfigurasi static routing, **IP > route > routes**
-![y](asda.PNG)  
-![y](tgfgdr.PNG)  
-![y](folder/routes.png)  
+![y](asda.PNG)
 ![y](folder/def.png)  
+![y](folder/routes.png)  
 
 # Laptop  
   Jika semua router sudah di konfigurasi, selanjutnya kita setting IP untuk setiap laptop.  
